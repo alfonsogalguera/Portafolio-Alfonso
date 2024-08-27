@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const Home = () => {
   return (
@@ -30,7 +30,7 @@ const Home = () => {
         <img
           src="/src/assets/images/main.avif"
           alt="Programación"
-          className="w-auto h-auto flex justify-end"
+          className="w-auto h-auto flex justify-end animate-customTilt"
         />
       </div>
     </section>
