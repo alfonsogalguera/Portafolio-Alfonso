@@ -3,7 +3,7 @@ const AboutMe = () => {
     <section className=" text-gray-800 p-8 md:p-12 lg:p-16">
       {/* Sección superior: Descripción personal */}
       <div className="mb-12">
-        <h2 className="text-[60px] font-bold text-center mb-6 text-black">
+        <h2 className="text-[36px] md:text-[48px] lg:text-[60px] font-bold text-center mb-6 text-black">
           Sobre mí
         </h2>
         <p className="text-lg leading-relaxed text-justify max-w-3xl mx-auto">

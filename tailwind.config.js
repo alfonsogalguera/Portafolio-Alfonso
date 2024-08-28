@@ -13,6 +13,7 @@ export default {
           '50%': { transform: 'rotate(-3deg) scale(1.1)' },
           '75%': { transform: 'rotate(3deg) scale(1.05)' },
         },
+        
       },
       animation: {
         customTilt: 'customTilt 5s infinite ease-in-out',
