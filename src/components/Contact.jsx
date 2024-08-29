@@ -1,4 +1,4 @@
-import { TfiLinkedin } from "react-icons/tfi";
+import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import useInView from "./useInView";
 import emailjs from "emailjs-com";
@@ -102,7 +102,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <TfiLinkedin size={"24px"} className="md:text-[28px]" />
+              <FaLinkedin size={"24px"} className="md:text-[28px]"  />
             </a>
             <a
               href="https://github.com/alfonsogalguera"
