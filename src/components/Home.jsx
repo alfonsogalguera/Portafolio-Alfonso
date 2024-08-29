@@ -1,4 +1,5 @@
 import useInView from "./useInView";
+import image from '../assets/main.avif';
 const Home = () => {
   const [ref, inView] = useInView({ threshold: 0.3 });
   return (
@@ -36,7 +37,7 @@ const Home = () => {
       {/* Lado Derecho */}
       <div className="lg:w-1/2 p-8">
         <img
-          src="@/src/assets/main.avif"
+          src={image}
           alt="Programación"
           className="w-auto h-auto flex justify-end animate-customTilt"
         />
