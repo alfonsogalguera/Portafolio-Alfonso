@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: [], // Asegúrate de que no haya módulos importantes aquí
-    },
-  },
+      external: ['react-icons/tfi']
+    }
+  }
 });
