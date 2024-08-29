@@ -36,7 +36,7 @@ const Home = () => {
       {/* Lado Derecho */}
       <div className="lg:w-1/2 p-8">
         <img
-          src="/src/assets/main.avif"
+          src="@/src/assets/main.avif"
           alt="Programación"
           className="w-auto h-auto flex justify-end animate-customTilt"
         />
