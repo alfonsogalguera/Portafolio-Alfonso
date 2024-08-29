@@ -1,6 +1,6 @@
 import { TfiLinkedin } from "react-icons/tfi";
 import { FaGithubSquare } from "react-icons/fa";
-
+import useInView from "./useInView";
 import emailjs from "emailjs-com";
 
 const sendEmail = (e) => {
@@ -28,13 +28,23 @@ const sendEmail = (e) => {
 };
 
 const Contact = () => {
+  const [ref, inView] = useInView({ threshold: 0.3 });
   return (
-    <section id="contact" className="p-4 md:p-8 mb-4" onSubmit={sendEmail}>
-      <h2 className="text-[36px] md:text-[48px] lg:text-[60px] font-bold text-center mb-6">
+    <section
+      ref={ref}
+      id="contact"
+      className={`transition-opacity duration-700 ${
+        inView ? "opacity-100" : "opacity-0"
+      } p-4 md:p-8 mb-4`}
+    >
+      <h2 className="text-[36px] md:text-[48px] lg:text-[60px] font-bold text-center mb-6 font-title">
         Contáctame
       </h2>
       <div className="max-w-lg mx-auto">
-        <form className="bg-white rounded-lg p-4 md:p-6">
+        <form
+          className="bg-white rounded-lg p-4 md:p-6 font-body"
+          onSubmit={sendEmail}
+        >
           <div className="mb-4">
             <label
               className="block text-gray-700 font-bold mb-2"
@@ -88,14 +98,14 @@ const Contact = () => {
           <p className="text-gray-700">También puedes encontrarme en:</p>
           <div className="flex justify-center space-x-4 mt-4">
             <a
-              href="https://www.linkedin.com/in/tu-linkedin"
+              href="https://www.linkedin.com/in/alfonso-galguera/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <TfiLinkedin size={"24px"} className="md:text-[28px]" />
             </a>
             <a
-              href="https://github.com/tu-github"
+              href="https://github.com/alfonsogalguera"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -1,5 +1,5 @@
 import Projects from "./Projects";
-
+import useInView from "./useInView";
 const projects = [
   {
     imageSrc: "/src/assets/images/agaldent.png",
@@ -67,12 +67,24 @@ const projects = [
 ];
 
 const Project = () => {
+  const [ref, inView] = useInView({ threshold: 0.1 });
   return (
     <>
-      <h1 className="text-center font-bold text-[36px] md:text-[48px] lg:text-[60px] my-8">
+      <h1
+        ref={ref}
+        id="Project"
+        className={`transition-opacity duration-700 ${
+          inView ? "opacity-100" : "opacity-0"
+        } text-center font-bold text-[36px] md:text-[48px] lg:text-[60px] my-8 font-title`}
+      >
         Proyectos
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:mx-16 mb-8 mx-4">
+      <div
+        ref={ref}
+        className={`transition-opacity duration-700 ${
+          inView ? "opacity-100" : "opacity-0"
+        } grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:mx-16 mb-8 mx-4`}
+      >
         {projects.map((project, index) => (
           <Projects key={index} {...project} />
         ))}

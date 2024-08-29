@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        title: ['Roboto', 'sans-serif'],
+        body: ['Open Sans', 'sans-serif'],
+      },
       keyframes: {
         customTilt: {
           '0%, 100%': { transform: 'rotate(0deg) scale(1)' },

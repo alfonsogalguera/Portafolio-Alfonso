@@ -1,12 +1,20 @@
+import useInView from "./useInView";
 const AboutMe = () => {
+  const [ref, inView] = useInView({ threshold: 0.3 });
   return (
-    <section className=" text-gray-800 p-8 md:p-12 lg:p-16">
+    <section
+      ref={ref}
+      id="About"
+      className={`transition-opacity duration-700 ${
+        inView ? "opacity-100" : "opacity-0"
+      } text-gray-800 p-8 md:p-12 lg:p-16`}
+    >
       {/* Sección superior: Descripción personal */}
       <div className="mb-12">
-        <h2 className="text-[36px] md:text-[48px] lg:text-[60px] font-bold text-center mb-6 text-black">
+        <h2 className="text-[36px] md:text-[48px] lg:text-[60px] font-bold text-center mb-6 text-black font-title">
           Sobre mí
         </h2>
-        <p className="text-lg leading-relaxed text-justify max-w-3xl mx-auto">
+        <p className="text-lg leading-relaxed text-justify max-w-3xl mx-auto font-body">
           Soy un desarrollador frontend con dos años de experiencia profesional,
           con especialización en frameworks y librerías de JavaScript como
           React, Angular, y Next.js. Tengo un sólido dominio de CSS y Tailwind
@@ -22,10 +30,10 @@ const AboutMe = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         {/* Historial académico y cursos */}
         <div className="bg-white p-6 rounded-lg shadow-md">
-          <h3 className="text-2xl font-semibold text-black mb-4">
+          <h3 className="text-2xl font-semibold text-black mb-4 font-title">
             Historial Académico y Cursos
           </h3>
-          <ul className="space-y-4">
+          <ul className="space-y-4 font-body">
             <li>
               <strong>
                 Licenciatura en ingeniería en tecnologías de la información
@@ -41,10 +49,10 @@ const AboutMe = () => {
 
         {/* Experiencia laboral */}
         <div className="bg-white p-6 rounded-lg shadow-md">
-          <h3 className="text-2xl font-semibold text-black mb-4">
+          <h3 className="text-2xl font-semibold text-black mb-4 font-title">
             Experiencia laboral
           </h3>
-          <ul className="space-y-4">
+          <ul className="space-y-4 font-body">
             <li>
               <strong>Desarrollador Frontend</strong> - WhatTheCode (2023-2024)
               <p className="text-gray-600">

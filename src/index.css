@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
 
 @keyframes float {
   0%, 100% {
@@ -32,15 +33,15 @@
     }
   
     .project-title {
-      @apply text-xl font-semibold mb-2;
+      @apply text-xl font-semibold mb-2 font-title;
     }
   
     .project-description {
-      @apply text-base mb-4;
+      @apply text-base mb-4 font-body;
     }
   
     .buttons-container {
-      @apply flex justify-center gap-4;
+      @apply flex justify-center gap-4 font-body;
     }
   
     .btn {
