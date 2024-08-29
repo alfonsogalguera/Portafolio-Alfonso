@@ -2,7 +2,7 @@ import Projects from "./Projects";
 import useInView from "./useInView";
 const projects = [
   {
-    imageSrc: "/src/assets/images/agaldent.png",
+    imageSrc: "/src/assets/agaldent.png",
     title: "Agaldent",
     description:
       "Proyecto freelancer a una clinica dental, usando solamente html, css y javascript.",
@@ -10,48 +10,48 @@ const projects = [
     demoLink: "https://alfonsogalguera.github.io/Agaldent/Index.html",
   },
   {
-    imageSrc: "/src/assets/images/rwings.png",
+    imageSrc: "/src/assets/rwings.png",
     title: "R-wings",
     description:
       "No tengo repositorio de este proyecto, ya que fue un proyecto realizado en mis practicas profesionales.",
   },
   {
-    imageSrc: "/src/assets/images/ecommerce.png",
+    imageSrc: "/src/assets/ecommerce.png",
     title: "Ecommerce",
     description: "Proyecto personal de maquetado realizado con react.",
     githubLink: "https://github.com/alfonsogalguera/ecommerce",
     demoLink: "https://ecommerce-maquetado.web.app/",
   },
   {
-    imageSrc: "/src/assets/images/covid.png",
+    imageSrc: "/src/assets/covid.png",
     title: "Covid 19",
     description:
       "Proyecto realizado en practicas profesionales para la facultad de computación.",
     demoLink: "https://proyecto-covid.siycise.org/mexico.html",
   },
   {
-    imageSrc: "/src/assets/images/redsocial.png",
+    imageSrc: "/src/assets/redsocial.png",
     title: "Red Social",
     description: "Proyecto personal de maquetado realizado con react.",
     githubLink: "https://github.com/usuario/repositorio",
     demoLink: "https://redsocial-maquetado.web.app/",
   },
   {
-    imageSrc: "/src/assets/images/pokedex.png",
+    imageSrc: "/src/assets/pokedex.png",
     title: "Pokedex",
     description: "Proyecto personal usando api de pokemon.",
     githubLink: "https://github.com/alfonsogalguera/pokedex",
     demoLink: "https://pokedex-8b01d.web.app/pokedex",
   },
   {
-    imageSrc: "/src/assets/images/juridico.png",
+    imageSrc: "/src/assets/juridico.png",
     title: "Estrategias de abogados",
     description:
       "Proyecto hecho con dapperTechologies, no tengo el repositorio.",
     demoLink: "https://bufetedeabogadosej.com.mx/",
   },
   {
-    imageSrc: "/src/assets/images/ciudadMaderas.png",
+    imageSrc: "/src/assets/ciudadMaderas.png",
     title: "Ciudad Maderas",
     description:
       "Proyecto hecho con dapperTechologies, no tengo el repositorio.",
@@ -59,7 +59,7 @@ const projects = [
       "https://ciudadmaderas.com/?utm_source=google_ads&utm_medium=search&utm_campaign=branding&utm_content=search_b&gad_source=1&gclid=CjwKCAjwlbu2BhA3EiwA3yXyu_ihBCA-xiA2fUpZ3SXj3TGx36EHPHTH6_BdxdF1cFu-4k20vbgmtBoC-VUQAvD_BwE",
   },
   {
-    imageSrc: "/src/assets/images/cotiza.png",
+    imageSrc: "/src/assets/cotiza.png",
     title: "Cotiza facil",
     description: "Proyecto hecho con What the code, no tengo el repositorio.",
     demoLink: "https://prod.cotiza-facil.guaodev.com/",
@@ -67,7 +67,7 @@ const projects = [
 ];
 
 const Project = () => {
-  const [ref, inView] = useInView({ threshold: 0.1 });
+  const [ref, inView] = useInView({ threshold: 0.2 });
   return (
     <>
       <h1
