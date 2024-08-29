@@ -1,17 +1,8 @@
 import Projects from "./Projects";
 import useInView from "./useInView";
-import agaldent from '../assets/agaldent.png';
-import rwings from '../assets/rwings.png';
-import ecommerce from '../assets/ecommerce.png';
-import covid from '../assets/covid.png';
-import redsocial from '../assets/redsocial.png';
-import pokedex from '../assets/pokedex.png';
-import juridico from '../assets/juridico.png';
-import ciudad from '../assets/ciudadMaderas.png';
-import cotiza from '../assets/cotiza.png';
 const projects = [
   {
-    imageSrc: {agaldent},
+    imageSrc: "/assets/agaldent.png",
     title: "Agaldent",
     description:
       "Proyecto freelancer a una clinica dental, usando solamente html, css y javascript.",
@@ -19,48 +10,48 @@ const projects = [
     demoLink: "https://alfonsogalguera.github.io/Agaldent/Index.html",
   },
   {
-    imageSrc: {rwings},
+    imageSrc: "/assets/agaldent.png",
     title: "R-wings",
     description:
       "No tengo repositorio de este proyecto, ya que fue un proyecto realizado en mis practicas profesionales.",
   },
   {
-    imageSrc: {ecommerce},
+    imageSrc: "/assets/agaldent.png",
     title: "Ecommerce",
     description: "Proyecto personal de maquetado realizado con react.",
     githubLink: "https://github.com/alfonsogalguera/ecommerce",
     demoLink: "https://ecommerce-maquetado.web.app/",
   },
   {
-    imageSrc: {covid},
+    imageSrc: "/assets/agaldent.png",
     title: "Covid 19",
     description:
       "Proyecto realizado en practicas profesionales para la facultad de computación.",
     demoLink: "https://proyecto-covid.siycise.org/mexico.html",
   },
   {
-    imageSrc: {redsocial},
+    imageSrc: "/assets/agaldent.png",
     title: "Red Social",
     description: "Proyecto personal de maquetado realizado con react.",
     githubLink: "https://github.com/usuario/repositorio",
     demoLink: "https://redsocial-maquetado.web.app/",
   },
   {
-    imageSrc: {pokedex},
+    imageSrc: "/assets/agaldent.png",
     title: "Pokedex",
     description: "Proyecto personal usando api de pokemon.",
     githubLink: "https://github.com/alfonsogalguera/pokedex",
     demoLink: "https://pokedex-8b01d.web.app/pokedex",
   },
   {
-    imageSrc: {juridico},
+    imageSrc: "/assets/agaldent.png",
     title: "Estrategias de abogados",
     description:
       "Proyecto hecho con dapperTechologies, no tengo el repositorio.",
     demoLink: "https://bufetedeabogadosej.com.mx/",
   },
   {
-    imageSrc: {ciudad},
+    imageSrc: "/assets/agaldent.png",
     title: "Ciudad Maderas",
     description:
       "Proyecto hecho con dapperTechologies, no tengo el repositorio.",
@@ -68,7 +59,7 @@ const projects = [
       "https://ciudadmaderas.com/?utm_source=google_ads&utm_medium=search&utm_campaign=branding&utm_content=search_b&gad_source=1&gclid=CjwKCAjwlbu2BhA3EiwA3yXyu_ihBCA-xiA2fUpZ3SXj3TGx36EHPHTH6_BdxdF1cFu-4k20vbgmtBoC-VUQAvD_BwE",
   },
   {
-    imageSrc: {cotiza},
+    imageSrc: "/assets/agaldent.png",
     title: "Cotiza facil",
     description: "Proyecto hecho con What the code, no tengo el repositorio.",
     demoLink: "https://prod.cotiza-facil.guaodev.com/",
