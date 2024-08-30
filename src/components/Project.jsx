@@ -76,7 +76,7 @@ const projects = [
 ];
 
 const Project = () => {
-  const [ref, inView] = useInView({ threshold: 0.2 });
+  const [ref, inView] = useInView({ threshold: 0.1 });
   return (
     <>
       <h1
