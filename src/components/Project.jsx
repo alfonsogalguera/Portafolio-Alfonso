@@ -35,7 +35,7 @@ const projects = [
     imageSrc: covid,
     title: "Covid 19",
     description:
-      "Un proyecto realizado para la Facultad de Computación de la BUAP, que busca mostrar la información sobre el COVID-19 de manera más intuitiva y fácil.",
+      "Un proyecto realizado para la Facultad de Computación de la BUAP, que busca mostrar la información sobre el COVID-19 de una manera intuitiva y fácil.",
     demoLink: "https://proyecto-covid.siycise.org/mexico.html",
   },
   {
