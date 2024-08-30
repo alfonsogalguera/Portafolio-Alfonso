@@ -38,7 +38,7 @@
     }
   
     .project-description {
-      @apply text-base mb-4 font-body;
+      @apply text-justify mb-4 font-body;
     }
   
     .buttons-container {

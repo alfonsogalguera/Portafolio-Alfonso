@@ -14,7 +14,7 @@ const projects = [
     imageSrc: agaldent,
     title: "Agaldent",
     description:
-      "Proyecto freelancer a una clinica dental, usando solamente html, css y javascript.",
+      "Este proyecto tuvo un impacto significativo para los nuevos pacientes de la clínica dental al poder ubicar el consultorio y comunicarse con el odontólogo por WhatsApp o Instagram para sus consultas.",
     githubLink: "https://github.com/alfonsogalguera/Agaldent",
     demoLink: "https://alfonsogalguera.github.io/Agaldent/Index.html",
   },
@@ -22,7 +22,7 @@ const projects = [
     imageSrc: rwings,
     title: "R-wings",
     description:
-      "No tengo repositorio de este proyecto, ya que fue un proyecto realizado en mis practicas profesionales.",
+      "Un proyecto para un negocio de snacks les favoreció al tener su página web, permitiendo a sus clientes escoger qué ordenar antes de llegar al establecimiento. Esto mejoró el flujo entre clientes y empresa.",
   },
   {
     imageSrc: ecommerce,
@@ -35,7 +35,7 @@ const projects = [
     imageSrc: covid,
     title: "Covid 19",
     description:
-      "Proyecto realizado en practicas profesionales para la facultad de computación.",
+      "Un proyecto realizado para la Facultad de Computación de la BUAP, que busca mostrar la información sobre el COVID-19 de manera más intuitiva y fácil.",
     demoLink: "https://proyecto-covid.siycise.org/mexico.html",
   },
   {
@@ -56,21 +56,21 @@ const projects = [
     imageSrc: abogados,
     title: "Estrategias de abogados",
     description:
-      "Proyecto hecho con dapperTechologies, no tengo el repositorio.",
+      "Proyecto realizado con la empresa Dapper Technologies, que ayudó a una firma de abogados a mostrar a sus clientes los servicios que ofrecen, permitirles obtener una primera asesoría gratuita y facilitar el contacto con ellos.",
     demoLink: "https://bufetedeabogadosej.com.mx/",
   },
   {
     imageSrc: ciudad,
     title: "Ciudad Maderas",
     description:
-      "Proyecto hecho con dapperTechologies, no tengo el repositorio.",
+      "Proyecto realizado con la empresa Dapper Technologies, que ayudó a los clientes a apartar, cotizar y tener el primer contacto con la empresa para así poder comprar terrenos.",
     demoLink:
       "https://ciudadmaderas.com/?utm_source=google_ads&utm_medium=search&utm_campaign=branding&utm_content=search_b&gad_source=1&gclid=CjwKCAjwlbu2BhA3EiwA3yXyu_ihBCA-xiA2fUpZ3SXj3TGx36EHPHTH6_BdxdF1cFu-4k20vbgmtBoC-VUQAvD_BwE",
   },
   {
     imageSrc: cotiza,
     title: "Cotiza facil",
-    description: "Proyecto hecho con What the code, no tengo el repositorio.",
+    description: "Proyecto realizado con la empresa What the code, que ayudó a los clientes de la empresa el poder cotizar, calcular y darte de alta en el imss.",
     demoLink: "https://prod.cotiza-facil.guaodev.com/",
   },
 ];

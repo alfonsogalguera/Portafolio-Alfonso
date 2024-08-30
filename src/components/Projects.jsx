@@ -10,14 +10,16 @@ const Projects = ({ imageSrc, title, description, githubLink, demoLink }) => {
         <h3 className="project-title">{title}</h3>
         <p className="project-description">{description}</p>
         <div className="buttons-container">
-          <a
-            href={githubLink}
-            className="btn btn-github"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
+          {githubLink && (
+            <a
+              href={githubLink}
+              className="btn btn-github"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          )}
           {demoLink && (
             <a
               href={demoLink}
