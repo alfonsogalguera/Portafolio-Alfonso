@@ -1,8 +1,9 @@
 import Projects from "./Projects";
 import useInView from "./useInView";
+import agaldent from '../assets/agaldent.png';
 const projects = [
   {
-    imageSrc: "./assets/agaldent.png",
+    imageSrc: agaldent,
     title: "Agaldent",
     description:
       "Proyecto freelancer a una clinica dental, usando solamente html, css y javascript.",
