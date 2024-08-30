@@ -27,7 +27,7 @@ const projects = [
   {
     imageSrc: ecommerce,
     title: "Ecommerce",
-    description: "Proyecto personal de maquetado realizado con react.",
+    description: "Proyecto personal de maquetado realizado con react y styled css.",
     githubLink: "https://github.com/alfonsogalguera/ecommerce",
     demoLink: "https://ecommerce-maquetado.web.app/",
   },
@@ -41,7 +41,7 @@ const projects = [
   {
     imageSrc: redsocial,
     title: "Red Social",
-    description: "Proyecto personal de maquetado realizado con react.",
+    description: "Proyecto personal de maquetado realizado con react y styled css.",
     githubLink: "https://github.com/usuario/repositorio",
     demoLink: "https://redsocial-maquetado.web.app/",
   },

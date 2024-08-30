@@ -55,8 +55,10 @@ const Contact = () => {
             <input
               type="text"
               id="name"
+              name="user_name"
               className="w-full p-2 md:p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
               placeholder="Tu nombre"
+              required
             />
           </div>
           <div className="mb-4">
@@ -69,8 +71,10 @@ const Contact = () => {
             <input
               type="email"
               id="email"
+              name="user_email"
               className="w-full p-2 md:p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
               placeholder="Tu correo electrónico"
+              required
             />
           </div>
           <div className="mb-4">
@@ -82,9 +86,11 @@ const Contact = () => {
             </label>
             <textarea
               id="message"
+              name="message"
               rows="5"
               className="w-full p-2 md:p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
               placeholder="Escribe tu mensaje..."
+              required
             />
           </div>
           <button
@@ -102,7 +108,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin size={"24px"} className="md:text-[28px]"  />
+              <FaLinkedin size={"24px"} className="md:text-[28px]" />
             </a>
             <a
               href="https://github.com/alfonsogalguera"
